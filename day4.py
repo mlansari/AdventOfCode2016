@@ -80,7 +80,7 @@ def main():
             finVal = ''.join([finVal, nLetter])
         
         # print the result into a file
-        with open('info/day4out.txt', 'a') as f:
+        with open('out/day4out.txt', 'a') as f:
             toWrite = finVal + " at " + room[1] + '\n'
             f.write(toWrite)
 
